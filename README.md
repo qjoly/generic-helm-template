@@ -7,10 +7,7 @@
 # How to use ? 
 
 ```bash
-helm repo add qjoly https://qjoly.github.io/helm-charts/ # Add the repo to your helm
-```
-```bash
-helm install myjoplin qjoly/joplin # Install your app
+helm repo add qjoly-generic https://qjoly.github.io/generic-helm-template/ # Add the repo to your helm
 ```
 
 # Charts
@@ -19,12 +16,6 @@ helm install myjoplin qjoly/joplin # Install your app
 |-------|-------------|---------------|-------------|
 | generic-app | Helm chart for deployment generic app on Kubernetes | v0.1.0 | 0 |
 
-
-# Disclaimer
-
-:warning: Only traefik is compatible with my charts. I do not plan to support any other ingress. (Ingress != IngressRoute) 
-
-**:warning: I do not use any Ingress object ! Only __IngressRoute__ !!**
 
 # Contributing 
 
